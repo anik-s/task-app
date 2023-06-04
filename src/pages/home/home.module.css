@@ -1,0 +1,432 @@
+.deco1 {
+    width: 130px;
+    background: #266FF2;
+    opacity: 0.8;
+    z-index: -1;
+    transform: matrix(0.56, -0.83, 0.82, 0.58, 0, 0);
+    border-radius: 500px 500px 0px 0px;
+}
+
+.deco2 {
+    z-index: 1;
+    width: 130px;
+    background: #09C3FF;
+    opacity: 0.8;
+    transform: matrix(0.56, -0.83, 0.82, 0.58, 0, 0);
+    border-radius: 500px 500px 0px 0px;
+}
+
+.section {
+    height: 100vh;
+    display: flex;
+    overflow-x: hidden;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    width: 50%;
+}
+
+.aside {
+    width: 50%;
+    margin-left: 8rem;
+    display: flex;
+    padding-top: 12rem;
+    flex-flow: column;
+
+}
+
+.service-btn {
+    background-color: #266FF2;
+    width: 200px;
+    font-size: 13px;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    margin-top: 2rem;
+}
+
+.img {
+    position: absolute;
+    left: 66%;
+    z-index: 2;
+    top: 38%;
+}
+
+.img {
+    border-radius: 20px;
+}
+
+
+.aside h2 {
+    width: 100%;
+    font-size: 45px;
+    font-weight: bold;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.whoarewe {
+    display: flex;
+    padding-left: 10rem;
+    padding-bottom: 2rem;
+    gap: 2rem;
+    background-color: #E6EEFB;
+    justify-content: center;
+}
+
+.whoarewe h2 {
+    color: #266FF2;
+    margin-top: 3rem;
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+.whoarewe h1 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.6rem;
+    font-size: 35px;
+    width: 60%;
+}
+
+.des {
+    color: #727885;
+    width: 60%;
+    padding-bottom: 2rem;
+}
+
+.strength {
+    padding-top: 0.4rem;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.strength>p{
+    font-family: "Archivo";
+    font-style: "Medium";
+    font-size: 16px;
+    line-height: 17px;
+    line-height: 100%;
+    letter-spacing: -1%;
+    margin-left: 6px;
+}
+
+.strength>img {
+   width: 10px;
+   height: 10px;
+}
+
+.service h4 {
+    text-align: center;
+    color: #266FF2;
+    margin-top: 3rem;
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+.service h1 {
+    text-align: center;
+    font-weight: 700;
+}
+
+
+.services-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 300px);
+    justify-content: center;
+}
+
+.service {
+    background: #FFFFFF;
+    border: 1px solid #E6EEFB;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.service-line {
+    border-top: 3px solid #09C3FF;
+}
+
+.service p {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.services {
+    text-align: left;
+    vertical-align: middle;
+    font-size: 24px;
+    font-family: Arimo;
+    letter-spacing: 2%;
+    line-height: 145%;
+    text-decoration: underline;
+    color: #266ff2;
+}
+
+.services-title {
+    text-align: left;
+    vertical-align: middle;
+    font-size: 48px;
+    font-family: Archivo;
+    letter-spacing: -1%;
+    line-height: 90%;
+    color: #1b2e59;
+}
+
+.why-chooseus {
+    display: flex;
+    padding-left: 10rem;
+    padding-bottom: 2rem;
+    padding-top: 3rem;
+    gap: 4rem;
+    background: #E6EEFB;
+    justify-content: center;
+}
+
+.why-chooseus h2 {
+    color: #266FF2;
+    margin-top: 3rem;
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+.why-chooseus h1 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.6rem;
+    font-size: 35px;
+    width: 60%;
+}
+
+.support {
+    padding-top: 2rem;
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+    width: 40%;
+}
+
+.supports {
+    display: flex;
+    gap: 1rem;
+}
+
+.our-workflow {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E6EEFB;
+    margin: 20px 0px 30px 0px;
+}
+
+.h4 {
+    text-align: center;
+    color: #266FF2;
+    margin-top: 2rem;
+    font-size: 14px;
+    text-decoration: underline;
+    font-family: "Arimo";
+    font-weight: bold;
+    line-height: 154px;
+    line-height: 300%;
+    letter-spacing: 2%;
+}
+
+.h1 {
+    font-size: 35px;
+    width: 30%;
+    text-align: center;
+}
+
+.list-our-workflow {
+    width: 80%;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    display: grid;
+    gap: 2.4rem;
+    grid-template-columns: repeat(auto-fit, 250px);
+    justify-content: center;
+}
+
+.item-list-our-workflow {
+    width: 250px;
+    /* height: 311px; */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 1rem 2rem 1rem;
+}
+
+.white-item-list-our-workflow {
+    background-color: white;
+}
+
+.item-list-our-workflow>img {
+    height: 60px;
+}
+
+.item-list-our-workflow>h6 {
+    font-family: 'Archivo';
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 22px;
+    line-height: 100%;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.item-list-our-workflow>p {
+    margin-top: 0.5rem;
+    color: #727885;
+    font-family: 'Arimo';
+    font-style: "Regular";
+    font-size: 16px;
+    line-height: 30px;
+    line-height: 150%;
+    text-align: start;
+}
+
+@media only screen and (max-width: 600px) {
+    .aside {
+        width: 80%;
+        margin-left: 3rem;
+        display: flex;
+        padding-top: 4rem;
+        flex-flow: column;
+    }
+
+    .aside h2 {
+        padding-bottom: 1rem;
+        font-size: 35px;
+    }
+
+    .service-btn {
+        font-size: 16px;
+        margin-bottom: 4rem;
+    }
+
+    .container .img {
+        display: none;
+    }
+
+    .section {
+        display: none;
+    }
+
+    .who-img-people img {
+        width: 250px;
+    }
+
+
+    .whoarewe {
+        display: flex;
+        flex-flow: row wrap;
+        padding-left: 1rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .whoarewe h2 {
+        text-align: center;
+        font-size: 14px;
+    }
+
+
+    .whoarewe h1 {
+        padding-top: 2rem;
+        padding-left: 2rem;
+        width: 90%;
+        font-size: 30px;
+    }
+
+    .des,
+    .strength {
+        padding-left: 2rem;
+        width: 90%;
+    }
+
+    .s-btnx {
+        margin-left: 2rem;
+    }
+
+
+    .services-container {
+        display: flex;
+        flex-flow: column;
+        padding-left: 1rem;
+        width: 100%;
+    }
+
+    .service h1 {
+        width: 90%;
+        padding-left: 2rem;
+        font-weight: 700;
+    }
+
+    .service h4 {
+        font-size: 14px;
+
+    }
+
+    .why-c-img img {
+        width: 250px;
+    }
+
+    .why-c-img {
+        padding-left: 2rem;
+    }
+
+    .why-chooseus {
+        display: flex;
+        flex-flow: column;
+        padding-left: 2rem;
+        gap: 2rem;
+        background: #E6EEFB;
+    }
+
+    .why-chooseus h2 {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .why-chooseus h1 {
+        padding-top: 1rem;
+        padding-left: 2rem;
+        font-size: 30px;
+        width: 90%;
+    }
+
+    .supports {
+        display: flex;
+        flex-flow: column;
+        gap: 2rem;
+    }
+
+    .support {
+        padding-left: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+        gap: 1rem;
+        width: 90%;
+    }
+
+    .home-app {
+        overflow-x: hidden;
+
+    }
+
+    .h1 {
+        width: 80%;
+        text-align: start;
+    }
+
+}

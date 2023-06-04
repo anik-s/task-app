@@ -1,0 +1,84 @@
+/* Button */
+.btn {
+    width: 202px;
+    height: 60px;
+    display: flex;
+    padding: 0;
+    position: relative;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    border-radius: 0px 0px 0px 0px;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: transparent;
+}
+.rectangle1792 {
+    top: 0px;
+    left: 0px;
+    width: 202px;
+    height: 60px;
+    position: absolute;
+}
+
+.text {
+    left: 40px;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    align-self: auto;
+    font-style: Bold;
+    text-align: center;
+    font-family: Arimo;
+    font-weight: 700;
+    line-height: 60px;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.root-class-name {
+    top: 75px;
+    left: 1038px;
+    position: absolute;
+}
+
+/* OutlineButton */
+.frame7 {
+    display: flex;
+    padding: 0 20px;
+    position: relative;
+    align-items: flex-start;
+    border-color: transparent;
+    border-radius: 15px;
+    background-color: rgba(38, 111, 242, 0.10000000149011612);
+}
+.text {
+    color: rgba(38, 111, 242, 1);
+    height: auto;
+    font-size: 14px;
+    align-self: auto;
+    font-style: Bold;
+    text-align: left;
+    font-family: Arimo;
+    font-weight: 700;
+    line-height: 31px;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+}
+.root-class-name {
+    top: 130px;
+    left: 883px;
+    position: absolute;
+}
+
+.root-class-name {
+    top: 7px;
+    left: 7px;
+    position: absolute;
+}

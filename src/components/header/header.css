@@ -1,0 +1,28 @@
+.header-title {
+    text-align: left;
+    vertical-align: middle;
+    font-size: 55px;
+    font-family: Archivo;
+    letter-spacing: -1%;
+    line-height: 82%;
+    color: #ffffff;
+}
+
+.header-sub-title {
+    text-align: left;
+    vertical-align: top;
+    font-size: 14px;
+    font-family: Arimo;
+    letter-spacing: 8.5%;
+    line-height: auto;
+    color: #ffffff;
+}
+
+.ellipse-8-1 {
+    opacity: 0.10000000149011612;
+    transform: rotate(-91deg);
+    height: 250px;
+    width: 116px;
+    background-color: #d1d1d1;
+}
+

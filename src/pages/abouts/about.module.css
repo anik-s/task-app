@@ -1,0 +1,356 @@
+.about {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contents-about {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin: 130px auto 50px auto;
+}
+
+.para {
+    display: flex;
+}
+
+.l-para,
+.r-para {
+    flex: 1;
+}
+
+.badg-l-para {
+    width: 140px;
+    height: 31px;
+    border-radius: 15px;
+    background-color: rgba(38, 111, 242, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-badg-l-para {
+    font-size: 14px;
+    font-weight: bold;
+    font-weight: bold;
+    color: #266FF2;
+    line-height: 31px;
+    line-height: 193%;
+    letter-spacing: 2%;
+    font-family: 'Arimo';
+    text-transform: uppercase;
+}
+
+.text-l-para {
+    display: block;
+    font-size: 40px;
+    font-family: 'Archivo';
+    line-height: 60px;
+    line-height: 115%;
+    letter-spacing: -1%;
+    color: #1B2E59;
+    margin-top: 20px;
+}
+
+.text-r-para {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Arimo';
+    font-style: 'Regular';
+    line-height: 30px;
+    line-height: 163%;
+    color: #727885;
+}
+
+.movi {
+    margin-top: 50px;
+    height: 400px;
+    background-color: #D1D1D1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 20px;
+}
+
+.movi>img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.movi>a{
+    display: block;
+    position: absolute;
+}
+.btn-movi{
+    position: absolute;
+}
+.btn-movi,
+.img-item-list-sub-provid {
+    width: 50px;
+    height: 50px;
+    /* border-radius: 50%; */
+    background-color: white!important;
+    cursor: pointer;
+}
+
+.list-sub-provid {
+    display: grid;
+    gap: 2.4rem;
+    grid-template-columns: repeat(auto-fit, 300px);
+    margin-top: 100px;
+    margin-bottom: 150px;
+    justify-content: center;
+}
+
+.item-list-sub-provid {
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+    border: 1px solid #E6EEFB;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.img-item-list-sub-provid {
+    background-color: rgba(38, 111, 242, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.img-item-list-sub-provid>img {
+    width: 100%;
+    height: 100%;
+}
+
+.title-item-list-sub-provid {
+    font-family: 'Archivo';
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 40px;
+    line-height: 106%;
+    letter-spacing: -1%;
+    margin-bottom: 20px;
+}
+
+.desc-item-list-sub-provid {
+    font-family: 'Arimo';
+    font-style: 'Regular';
+    font-size: 14px;
+    line-height: 30px;
+    line-height: 163%;
+    color: #727885;
+}
+
+.achivement {
+    width: 100%;
+    /* height: 532px; */
+    background-color: #E6EEFB;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.c-Achivement {
+    display: flex;
+    width: 70%;
+    /* height: 60%; */
+    margin: 50px auto 100px auto;
+}
+
+.l-Achivement {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.r-Achivement {
+    flex: 1;
+    position: relative;
+    transform: rotate(45deg);
+}
+
+.item-r-Achivement {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-r-Achivement>img,
+.item-r-Achivement>span,
+.item-r-Achivement>small {
+    transform: rotate(-45deg);
+    display: block;
+    text-align: center;
+    position: relative;
+}
+
+.item-r-Achivement>img {
+    width: 20px;
+    height: 20px;
+    right: 20px;
+    top: 5px;
+}
+
+.item-r-Achivement>span {
+    font-family: "Archivo";
+    font-style: 'Bold';
+    font-size: 20px;
+    line-height: 50px;
+    line-height: 115%;
+    text-align: center;
+    letter-spacing: -1%;
+    /* margin-top: 5px; */
+}
+
+.item-r-Achivement>small {
+    font-family: "Arimo";
+    font-style: 'Regular';
+    font-size: 10px;
+    line-height: 18px;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: -1%;
+    margin-top: 10px;
+    color: #727885;
+    margin-top: 20px;
+    left: 15px;
+    bottom: 20px;
+}
+
+.item-r-Achivement3>small,.item-r-Achivement3>span{
+    color: white;
+}
+.item-r-Achivement1 {
+    top: 90px;
+    left: 150px;
+
+}
+
+.item-r-Achivement2 {
+    top: 90px;
+    right: 50px;
+}
+
+.item-r-Achivement3 {
+    bottom: 20px;
+    left: 150px;
+    background-color: #266FF2;
+}
+
+.item-r-Achivement4 {
+    bottom: 20px;
+    right: 50px;
+}
+.accordion-item,.accordion{
+    background-color: transparent!important;
+    --bs-accordion-bg:transparent!important;
+}
+.accordion-item>button{
+    width: 10px!important;
+    height: 10px!important;
+}
+
+.accordion-button,.collapsed{
+    font-family: 'Archivo'!important;
+    font-style: 'Bold'!important;
+    font-weight: 600;
+    font-size: 10px!important;
+    line-height: 32px!important;
+    line-height: 63%!important;
+}
+
+.play-btn{
+    background-color: #09C3FF;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 100;
+}
+
+@media screen and (max-width: 768px) {
+    .contents-about {
+        width: 90%;
+    }
+
+    .para {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .l-para,
+    .r-para {
+        flex: 2;
+    }
+
+    .text-r-para {
+        text-align: justify;
+        text-justify: inter-character;
+    }
+
+    .badg-l-para,
+    .text-l-para {
+        margin-bottom: 30px;
+    }
+
+    .badg-l-para {
+        width: 200px;
+    }
+
+    .list-sub-provid {
+        grid-template-columns: repeat(auto-fit, 100%);
+        justify-content: center;
+    }
+
+    .item-list-sub-provid {
+        width: 100%;
+    }
+
+    .c-Achivement {
+        flex-direction: column;
+        padding-bottom: 80px;
+    }
+
+    .r-Achivement {
+        margin-top: 200px;
+        transform: rotate(45deg);
+    }
+
+    .item-r-Achivement {
+        width: 100px;
+        height: 100px;
+    }
+
+    .item-r-Achivement1 {
+        top: 0px;
+        left: 25px;
+    }
+
+    .item-r-Achivement2 {
+        top: 0px;
+        right: 25px;
+    }
+
+    .item-r-Achivement3 {
+        bottom: 20px;
+        left: 25px;
+    }
+
+    .item-r-Achivement4 {
+        bottom: 20px;
+        right: 25px;
+    }
+}

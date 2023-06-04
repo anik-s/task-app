@@ -1,0 +1,133 @@
+
+.whoarewe {
+    display: flex;
+    padding-left: 10rem;
+    padding-bottom: 2rem;
+    gap: 2rem;
+    background-color: #E6EEFB;
+    justify-content: center;
+}
+
+.whoarewe h2 {
+    color: #266FF2;
+    margin-top: 3rem;
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+.whoarewe h1 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.6rem;
+    font-size: 35px;
+    width: 60%;
+}
+
+.des {
+    color: #727885;
+    width: 60%;
+    padding-bottom: 2rem;
+}
+
+.strength {
+    padding-top: 0.4rem;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.strength>p{
+    font-family: "Archivo";
+    font-style: "Medium";
+    font-size: 16px;
+    line-height: 17px;
+    line-height: 100%;
+    letter-spacing: -1%;
+    margin-left: 6px;
+}
+
+.strength>img {
+    width: 10px;
+    height: 10px;
+}
+
+.service-btn {
+    background-color: #266FF2;
+    width: 200px;
+    font-size: 13px;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    margin-top: 2rem;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .aside {
+        width: 80%;
+        margin-left: 3rem;
+        display: flex;
+        padding-top: 4rem;
+        flex-flow: column;
+    }
+
+    .aside h2 {
+        padding-bottom: 1rem;
+        font-size: 35px;
+    }
+
+    .service-btn {
+        font-size: 16px;
+        margin-bottom: 4rem;
+    }
+
+    .container .img {
+        display: none;
+    }
+
+    .section {
+        display: none;
+    }
+
+    .who-img-people img {
+        width: 250px;
+    }
+
+
+    .whoarewe {
+        display: flex;
+        flex-flow: row wrap;
+        padding-left: 1rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .whoarewe h2 {
+        text-align: center;
+        font-size: 14px;
+    }
+
+
+    .whoarewe h1 {
+        padding-top: 2rem;
+        padding-left: 2rem;
+        width: 90%;
+        font-size: 30px;
+    }
+
+    .des,
+    .strength {
+        padding-left: 2rem;
+        width: 90%;
+    }
+
+    .service-btn {
+        font-size: 16px;
+        margin-bottom: 4rem;
+    }
+
+    .s-btnx {
+        margin-left: 2rem;
+    }
+
+}

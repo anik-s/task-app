@@ -1,0 +1,115 @@
+.dt-team {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.infos-contents {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    /* justify-content: left; */
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.infos-contents>img {
+    width: 450px;
+    height: 400px;
+    background-color: #D1D1D1;
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: top center;
+}
+
+.dt-user {
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+}
+
+.name {
+    font-family: 'Archivo';
+    font-style: 'SemiBold';
+    font-size: 15px;
+    line-height: 32px;
+    line-height: 147%;
+    color: #1B2E59;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.name2 {
+    font-size: 25px;
+}
+
+.post{
+    font-family: 'Archivo';
+    font-style: 'Regular';
+    font-size: 14px;
+    line-height: 32px;
+    line-height: 210%;
+    color: #727885;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.text-l-para {
+    display: block;
+    font-size: 40px;
+    font-family: 'Archivo';
+    line-height: 60px;
+    line-height: 115%;
+    letter-spacing: -1%;
+    color: #1B2E59;
+    margin-top: 20px;
+}
+
+.dt-title{
+    font-size: 20px;
+}
+.other-content {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+.p-ex{
+    font-size: 32px;
+    font-weight: bold;
+}
+.text-team-desc{
+    color: #727885;
+    font-family: 'Arimo';
+    font-style: 'Regular';
+    font-size: 15px;
+    line-height: 28px;
+    line-height: 152%;
+    display: block;
+    margin-top: 20px;
+}
+@media screen and (max-width: 768px) {
+    .infos-contents{
+        width: 90%;
+        flex-direction: column;
+         margin-bottom: 50px;
+    }
+    .dt-user{
+        width: 100%;
+       padding-left: 20px;
+    }
+    .infos-contents>img{
+        width: 100%;
+        height: 300px;
+    }
+    .other-content{
+        width: 90%;
+    }
+    .p-ex{
+        font-size: 23px;
+    }
+    .text-team-desc{
+         margin-top: 0px;
+    }
+}

@@ -1,0 +1,116 @@
+.teamList {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.t-list {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    gap: 2.4rem;
+    grid-template-columns: repeat(auto-fit, 220px);
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+
+.t-item {
+    width: 220px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    border-radius: 20px;
+}
+
+.t-item>img {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background-color: #D1D1D1;
+    object-fit: cover;
+    object-position: top center;
+}
+
+.name {
+    font-family: 'Archivo';
+    font-style: 'SemiBold';
+    font-size: 15px;
+    line-height: 32px;
+    line-height: 147%;
+    color: #1B2E59;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.post{
+    font-family: 'Archivo';
+    font-style: 'Regular';
+    font-size: 14px;
+    line-height: 32px;
+    line-height: 210%;
+    color: #727885;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.viewdetailbtn{
+    width: 167px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid #E6EEFB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Archivo';
+    font-style: "Regular";
+    font-size: 16px;
+    line-height:  32px;
+    line-height: 184%;
+    color: #1B2E59;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.badg-l-para {
+    width: 140px;
+    height: 31px;
+    border-radius: 15px;
+    background-color: rgba(38, 111, 242, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.text-badg-l-para {
+    font-size: 14px;
+    font-weight: bold;
+    font-weight: bold;
+    color: #266FF2;
+    line-height: 31px;
+    line-height: 193%;
+    letter-spacing: 2%;
+    font-family: 'Arimo';
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px) {
+
+    .badg-l-para,
+    .text-l-para {
+        margin-bottom: 30px;
+    }
+
+    .badg-l-para {
+        width: 200px;
+    }
+
+}

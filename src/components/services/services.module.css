@@ -1,0 +1,117 @@
+.service-sidebar-bg {
+    background-color: #E6EEFB;
+}
+
+.services {
+    text-align: left;
+    vertical-align: middle;
+    font-size: 24px;
+    font-family: Arimo;
+    letter-spacing: 2%;
+    line-height: 145%;
+    text-decoration: underline;
+    color: #266ff2;
+}
+
+.services-title {
+    text-align: left;
+    vertical-align: middle;
+    font-size: 48px;
+    font-family: Archivo;
+    letter-spacing: -1%;
+    line-height: 90%;
+    color: #1b2e59;
+}
+
+.pricing-title {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 48px;
+    font-family: Archivo;
+    letter-spacing: -1%;
+    line-height: 60%;
+    color: #1b2e59;
+}
+
+.services-item {
+    max-height: 300px;
+    background-color: #ffffff;
+    border: 1px solid #e6eefb;
+}
+
+.services-item:hover {
+    border-top: 3px solid #09c3ff;
+}
+
+.services-item-title {
+    text-align: left;
+    vertical-align: middle;
+    font-size: 22px;
+    font-family: Archivo;
+    line-height: 95%;
+    color: #1b2e59;
+}
+
+.services-item-btn {
+    text-align: left;
+    vertical-align: middle;
+    font-size: 18px;
+    font-family: Font Awesome 5 Pro;
+    line-height: 32%;
+    color: #1b2e59;
+    cursor: pointer;
+}
+
+
+.pricing {
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px 20px;
+    gap: 10px;
+    background-color: rgba(38, 111, 242, 0.10000000149011612);
+
+    text-align: center;
+    vertical-align: middle;
+    font-size: 14px;
+    font-family: Arimo;
+    letter-spacing: 2%;
+    /*line-height: 31%;*/
+    color: #266ff2;
+}
+
+.prices-buttons {
+    border-radius: 73px;
+    /*height: 58px;*/
+    width: 402px;
+    background-color: #d3e1fa;
+}
+
+.price-btn {
+    border-radius: 73px;
+    /*height: 44px;*/
+    width: 146px;
+    background-color: #266ff2;
+    border-right: 10px;
+
+    text-align: center;
+    vertical-align: middle;
+    font-size: 15px;
+    font-family: Arimo;
+    letter-spacing: 7.5%;
+    /*line-height: 31%;*/
+    color: #ffffff; /*1b2e59*/
+}
+
+.pricing-item-white {
+    border-radius: 10px;
+    height: 120px;
+    background-color: #ffffff;
+}
+
+.pricing-item-info {
+    border-radius: 10px;
+    background-color: #266ff2;
+}

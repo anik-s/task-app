@@ -1,0 +1,65 @@
+.partenaires {
+    width: 100%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+   margin-bottom: 240px;
+
+}
+
+.part-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 250px);
+    gap: 1rem;
+    row-gap: 1.5rem;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.part-item {
+    width: 250px;
+    height: 250px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.part-item>img{
+    width: 90%;
+    height: auto;
+    border-radius: 0%;
+    display: block;
+}
+
+.part-item >p{
+    margin-top: 20px;
+}
+
+.pages-techs{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.h4 {
+    text-align: center;
+    color: #266FF2;
+    margin-top: 2rem;
+    font-size: 14px;
+    text-decoration: underline;
+    font-family: "Arimo";
+    font-weight: bold;
+    line-height: 154px;
+    line-height: 300%;
+    letter-spacing: 2%;
+}
+
+.pages-techs>.h4{
+    text-align: start;
+}
+.pages-techs>.h1{
+    text-align: start;
+    width: 40%;
+    margin-top: 0px;
+}

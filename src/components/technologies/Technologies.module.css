@@ -1,0 +1,83 @@
+.technos{
+    width: 100%;
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+.pages-techs{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.h4 {
+    text-align: center;
+    color: #266FF2;
+    margin-top: 2rem;
+    font-size: 14px;
+    text-decoration: underline;
+    font-family: "Arimo";
+    font-weight: bold;
+    line-height: 154px;
+    line-height: 300%;
+    letter-spacing: 2%;
+}
+
+.pages-techs>.h4{
+    text-align: start;
+}
+.pages-techs>.h1{
+    text-align: start;
+    width: 40%;
+    margin-top: 0px;
+}
+.tlt{
+    color: var(--white);
+}
+.list-technos{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 250px);
+    gap: 1rem;
+    row-gap: 1.5rem;
+    justify-content: center;
+    margin-top: 50px;
+}
+.item-techno{
+    width: 250px;
+    height: 70px;
+    background-color: #E6EEFB;
+    border-radius: 50px;
+    color: #1B2E59;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    cursor: pointer;
+}
+.text-item-techno{
+    display: flex;
+    flex-direction: column;
+}
+.text-item-techno>span{
+    font-size: 1rem;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.text-item-techno>small{
+    font-size: 0.6rem;
+    margin-left: 10px;
+    font-weight: bold;
+    color:var(--vert);
+}
+
+@media only screen and (max-width: 600px) {
+    .pages-techs>.h1{
+        width: 90%;
+    }
+    .list-technos{
+        justify-content: center;
+    }
+
+}
+

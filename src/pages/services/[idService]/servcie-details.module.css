@@ -1,0 +1,20 @@
+
+.service-details-title {
+    text-align: left;
+    vertical-align: middle;
+    font-size: 32px;
+    font-family: Archivo;
+    letter-spacing: -1%;
+    line-height: 48%;
+    color: #1b2e59;
+}
+
+/*.service-details-p {*/
+/*    text-align: left;*/
+/*    vertical-align: middle;*/
+/*    font-size: 16px;*/
+/*    font-family: Arimo;*/
+/*    line-height: 30%;*/
+/*    color: #727885;*/
+/*    padding-right: 30px;*/
+/*}*/
