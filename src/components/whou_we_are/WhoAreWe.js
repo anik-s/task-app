@@ -14,8 +14,13 @@ const WhoAreWe = () => {
 
             <div className='des-whoarewe'>
                 <h2>Who we are</h2>
-                <h1>We're a dynamic team of creatives people</h1>
-                <p className={styles.des}>"We are a dynamic team of creative professionals who are passionate about software editing. Our team consists of talented and innovative individuals who bring their unique perspectives and expertise to every project. With a collaborative approach, we foster creativity, encourage experimentation, and strive for excellence in every aspect of our work. We are constantly pushing boundaries, exploring new ideas, and staying up-to-date with the latest industry trends to deliver cutting-edge software editing solutions for our clients."</p>
+                <h1>We&apos;re a dynamic team of creatives people</h1>
+                <p className={styles.des}>&quot;We are a dynamic team of creative professionals who are passionate about
+                    software editing. Our team consists of talented and innovative individuals who bring their unique
+                    perspectives and expertise to every project. With a collaborative approach, we foster creativity,
+                    encourage experimentation, and strive for excellence in every aspect of our work. We are constantly
+                    pushing boundaries, exploring new ideas, and staying up-to-date with the latest industry trends to
+                    deliver cutting-edge software editing solutions for our clients.&quot;</p>
 
                 <div className={styles.strength}>
                     <Image width={10} height={10} src={star} alt="" />

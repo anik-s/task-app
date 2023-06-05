@@ -73,7 +73,7 @@ const Index = () => {
                             Our mission
                         </span>
                         <span className={styles.descItemListSubProvid}>
-                            Our mission is to revolutionize the software editing landscape by delivering innovative and cutting-edge solutions that empower businesses and individuals alike. We are driven by a passion for technology and a deep understanding of our clients' needs.
+                            Our mission is to revolutionize the software editing landscape by delivering innovative and cutting-edge solutions that empower businesses and individuals alike. We are driven by a passion for technology and a deep understanding of our clients`&apos; needs.
                         </span>
                     </div>
                     <div className={styles.itemListSubProvid}>
@@ -129,18 +129,26 @@ const Index = () => {
                             <Accordion.Item eventKey="0">
                                 <Accordion.Header>Latest IT Solutions With Blockchain</Accordion.Header>
                                 <Accordion.Body>
-                                    At our software editing company, we stay at the forefront of technology trends, and we are proud to offer the latest IT solutions with blockchain technology.
+                                    At our software editing company, we stay at the forefront of technology trends,
+                                    and we are proud to offer the latest IT solutions with blockchain technology.
                                 </Accordion.Body>
                             </Accordion.Item>
                             <Accordion.Item eventKey="1">
                                 <Accordion.Header>AI Machine & Deep Learning</Accordion.Header>
                                 <Accordion.Body>
-                                    We are at the forefront of artificial intelligence (AI) and machine learning (ML) technologies, including deep learning. Our team of AI and ML experts combines their cutting-edge expertise with industry best practices to develop sophisticated software solutions that leverage the power of AI and deep learning algorithms.                                </Accordion.Body>
+                                    We are at the forefront of artificial intelligence (AI) and machine learning (ML)
+                                    technologies, including deep learning. Our team of AI and ML experts combines their
+                                    cutting-edge expertise with industry best practices to develop sophisticated
+                                    software solutions that leverage the power of AI and deep learning algorithms.                                </Accordion.Body>
                             </Accordion.Item>
                             <Accordion.Item eventKey="2">
                                 <Accordion.Header>Dedicated Support 24/7 </Accordion.Header>
                                 <Accordion.Body>
-                                    We are committed to providing top-notch customer support, and we understand the importance of having reliable and responsive assistance when you need it. That's why we offer dedicated support 24/7 to our valued clients. Our team of skilled and knowledgeable support professionals is available around the clock to assist you with any technical issues, questions, or concerns you may have.                                </Accordion.Body>
+                                    We are committed to providing top-notch customer support, and we understand the
+                                    importance of having reliable and responsive assistance when you need it. That&apos;s
+                                    why we offer dedicated support 24/7 to our valued clients. Our team of skilled and
+                                    knowledgeable support professionals is available around the clock to assist you
+                                    with any technical issues, questions, or concerns you may have.                                </Accordion.Body>
                             </Accordion.Item>
                         </Accordion>
                     </div>

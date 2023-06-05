@@ -3,11 +3,12 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 import styles from './styles.module.css'
+import Image from 'next/image';
 
 const Button = ({text, ...props}) => {
     return (
         <div className={` ${styles['btn']} ${styles[props.rootClassName]} `}>
-            <img
+            <Image
                 alt={props.Rectangle1792_alt}
                 src={props.Rectangle1792_src}
                 className={styles['rectangle1792']}

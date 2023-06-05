@@ -116,7 +116,7 @@ function Index() {
 
             <div className={styles.ourWorkflow}>
                 <h4 className={styles.h4}>our workflow</h4>
-                <h1 className={styles.h1}>We're help you turn
+                <h1 className={styles.h1}>We&apos;re help you turn
                     your idea into a great product</h1>
                 <div className={styles.listOurWorkflow}>
                     <div className={styles.itemListOurWorkflow}>
@@ -155,13 +155,13 @@ function Index() {
 
                     <div className={styles.supports}>
                         <div className={styles.support}>
-                            <img src={technical} alt="" width={50} />
+                            <Image src={technical} alt="" width={50} />
                             <h3>Full Time Support</h3>
-                            <p> We offer comprehensive and continuous support to our clients. Our team is available full time to address your software editing needs, whether it's resolving technical issues, providing guidance on software features, or offering post-editing support. We are committed to delivering fast and reliable service to ensure your satisfaction as a client.</p>
+                            <p> We offer comprehensive and continuous support to our clients. Our team is available full time to address your software editing needs, whether it&apos;s resolving technical issues, providing guidance on software features, or offering post-editing support. We are committed to delivering fast and reliable service to ensure your satisfaction as a client.</p>
                         </div>
 
                         <div className={styles.support}>
-                            <img src={quality} alt="" width={50} />
+                            <Image src={quality} alt="" width={50} />
                             <h3>Faster, Quality & Trusted</h3>
                             <p>Faster: Our software editing company is dedicated to delivering fast and efficient results.</p>
                             <p>Quality: We place a strong emphasis on the quality of our software editing work.</p>

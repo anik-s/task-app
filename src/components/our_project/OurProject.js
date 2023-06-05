@@ -14,12 +14,10 @@ const OurProject = () => {
                 <div className={styles.lContentOurProject}>
                     <h4 className={styles.h4}>RECENT PROJECTS</h4>
                     <h1 className={styles.h1}>Our latest case studies</h1>
-                    <p>
-                        Discover our latest case studies that highlight our past successes in software editing. Our detailed case studies provide insights into the challenges faced by our clients, the solutions implemented by our team, and the positive results achieved. This demonstrates our expertise, ability to tackle complex challenges, and commitment to our clients' success.
-                    </p>
-                    {/* <div className='h-btns'>
-                        <div className='h-btn'>more projects</div>
-                    </div> */}
+                    <p>Discover our latest case studies that highlight our past successes in software editing.
+                        Our detailed case studies provide insights into the challenges faced by our clients,
+                        the solutions implemented by our team, and the positive results achieved. This demonstrates
+                        our expertise, ability to tackle complex challenges, and commitment to our clients&apos; success.</p>
                 </div>
                 <div className={styles.rContentOurProject}>
                     <div className={styles.itemProject}>

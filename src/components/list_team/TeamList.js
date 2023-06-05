@@ -30,7 +30,7 @@ const TeamList = ({ nbr, labele }) => {
             </span>
             <div className={styles.tList}>
                 {
-                    teamsData.map((item, i)=> (i<nbr && <TeamItem id={item.id} img={item.imege} role={item.responsability} fullName={item.fullNAme} />))
+                    teamsData.map((item, i)=> (i<teamsData.length && <TeamItem key={item.id} id={item.id} img={item.image} role={item.responsability} fullName={item.fullNAme} />))
                 }
                 
                 {/* <TeamItem id={1} img={rougui} fullName="Mm Rougui" />

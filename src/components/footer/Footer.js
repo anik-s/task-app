@@ -105,7 +105,7 @@ export default function Footer() {
                                     <div className=''>
                                         {contacts.map((contact, index) => (
                                             <div key={index} className='mb-1'>
-                                                <Image src={contact.flg} width={30} height={25} /> {contact.phone}
+                                                <Image src={contact.flg} width={30} height={25} alt=""/> {contact.phone}
                                             </div>
                                         ))}
                                     </div>
